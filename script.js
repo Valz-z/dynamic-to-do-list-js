@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const taskList = document.getElementById('task-list');
 
     function addTask() {
-        // Get the input value and trim it
         const taskText = taskInput.value.trim();
 
         if (taskText === '') {
